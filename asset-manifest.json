@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.853425d8.css",
-    "main.js": "/Portfolio/static/js/main.55b6d1ab.js",
+    "main.js": "/Portfolio/static/js/main.4c8fdb00.js",
     "static/js/453.f4fbaa6d.chunk.js": "/Portfolio/static/js/453.f4fbaa6d.chunk.js",
     "static/media/avi-professional.jpg": "/Portfolio/static/media/avi-professional.d98bab11657a32e4d0cc.jpg",
     "static/media/salman-talib-cv.png": "/Portfolio/static/media/salman-talib-cv.67bfa9adf4263177b204.png",
@@ -12,11 +12,11 @@
     "static/media/react-logo.svg": "/Portfolio/static/media/react-logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.853425d8.css.map": "/Portfolio/static/css/main.853425d8.css.map",
-    "main.55b6d1ab.js.map": "/Portfolio/static/js/main.55b6d1ab.js.map",
+    "main.4c8fdb00.js.map": "/Portfolio/static/js/main.4c8fdb00.js.map",
     "453.f4fbaa6d.chunk.js.map": "/Portfolio/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.853425d8.css",
-    "static/js/main.55b6d1ab.js"
+    "static/js/main.4c8fdb00.js"
   ]
 }
