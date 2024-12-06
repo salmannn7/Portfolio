@@ -121,16 +121,17 @@ const ProjectPopUp = ({ isOpen, onClose, id, type }) => {
                             </div>
                             {obj ? (
                                 <div ref={sectionRef} className="w-fit h-56 bg-black flex overflow-x-auto snap-mandatory snap-x carousel gap-1">
-                                    <img className="w-auto h-full fade-child-p mask-l" src={`Portfolio/resources/project-images/${obj.tags}-3.png`} />
+                                    <img className="w-auto h-full fade-child-p mask-l" src={`Portfolio/resources/project-images/${obj.tags}-3.png`} onError={(e) => e.target.src = `resources/project-images/${obj.tags}-3.png`} />
                                     {["1", "2", "3"].map((suffix, index) => (
                                         <img
                                             ref={(el) => (imgRefs.current[index] = el)}
                                             key={index}
                                             className="w-auto h-full fade-child-p snap-center"
                                             src={`Portfolio/resources/project-images/${obj.tags}-${suffix}.png`}
+                                            onError={(e) => e.target.src = `resources/project-images/${obj.tags}-${suffix}.png`}
                                         />
                                     ))}
-                                    <img className="w-auto h-full fade-child-p mask-r" src={`Portfolio/resources/project-images/${obj.tags}-1.png`} />
+                                    <img className="w-auto h-full fade-child-p mask-r" src={`Portfolio/resources/project-images/${obj.tags}-1.png`} onError={(e) => e.target.src = `resources/project-images/${obj.tags}-3.png`} />
                                 </div>
                             ) : (
                                 <p>Loading images...</p>

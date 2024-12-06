@@ -42,6 +42,7 @@ function Home() {
     const [isProjectPopupOpen, setisProjectPopupOpen] = useState(false);
     const [ProjectPopUpId, setProjectPopUpId] = useState(0);
     const [ProjectPopUpType, setProjectPopUpType] = useState(0);
+    const [check, setCheck] = useState("Portfolio/");
     // Skills
     const [advancedSkills, setAdvancedSkills] = useState([]);
     const [intermediateSkills, setIntermediateSkills] = useState([]);
@@ -199,6 +200,15 @@ function Home() {
             }
         }
     };
+
+    useEffect(() => {
+        // Check if the background image exists
+        const img = new Image();
+        img.src = `Portfolio/resources/project-images/tba-1.png`;
+        img.onerror = () => {
+            setCheck("")
+        };
+    }, []);
 
     return (
         <div className="w-full font-poppins font-light">
@@ -403,7 +413,7 @@ function Home() {
                         <div className="w-full h-full grid grid-cols-2 gap-4 p-4">
                             {uniProjects.map((project) => (
                                 <div key={project.id} className="w-full h-64 rounded-xl bg-zinc-700 relative overflow-hidden cursor-pointer zoom-in fade-child">
-                                    <div className="absolute top-0 left-0 right-0 bottom-0 z-0 bg-cover bg-bottom image" style={{ backgroundImage: `url('Portfolio/resources/project-images/${project.tags}-1.png')` }}></div>
+                                    <div className="absolute top-0 left-0 right-0 bottom-0 z-0 bg-cover bg-bottom image" style={{ backgroundImage: `url('${check}resources/project-images/${project.tags}-1.png')` }}></div>
                                     <div onClick={() => toggleProjectPopup(project.id, 0)} className="w-full h-full proj-overlay relative flex items-center z-10">
                                         <div className="bg-white w-full text-2xl text-white text-center flex items-center justify-center centre-animation">
                                             <p className="child-centre fade-child">{project.name}</p>
@@ -420,7 +430,7 @@ function Home() {
                         <div className="w-full h-full grid grid-cols-2 gap-4 p-4">
                             {personalProjects.map((project) => (
                                 <div key={project.id} className="w-full h-64 rounded-xl bg-zinc-700 relative overflow-hidden cursor-pointer zoom-in fade-child">
-                                    <div className="absolute top-0 left-0 right-0 bottom-0 z-0 bg-cover bg-bottom image" style={{ backgroundImage: `url('Portfolio/resources/project-images/${project.tags}-1.png')` }}></div>
+                                    <div className="absolute top-0 left-0 right-0 bottom-0 z-0 bg-cover bg-bottom image" style={{ backgroundImage: `url('${check}resources/project-images/${project.tags}-1.png')` }}></div>
                                     <div onClick={() => toggleProjectPopup(project.id, 1)} className="w-full h-full proj-overlay relative flex items-center z-10">
                                         <div className="bg-white w-full text-2xl text-white text-center flex items-center justify-center centre-animation">
                                             <p className="child-centre fade-child">{project.name}</p>
