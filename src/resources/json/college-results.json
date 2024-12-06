@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "unit": "COMMUNICATION AND EMPLOYABILITY SKILLS",
+        "unitcode": "F/601/7233",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 2,
+        "unit": "COMPUTER SYSTEMS",
+        "unitcode": "M/601/7261",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 3,
+        "unit": "INFORMATION SYSTEMS",
+        "unitcode": "H/601/7256",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 4,
+        "unit": "SOFTWARE DESIGN AND DEVELOPMENT",
+        "unitcode": "L/601/6585",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 5,
+        "unit": "ORGANISATIONAL SYSTEMS SECURITY",
+        "unitcode": "T/601/7312",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 6,
+        "unit": "E-COMMERCE",
+        "unitcode": "A/601/7313",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 7,
+        "unit": "PROCEDURAL PROGRAMMING",
+        "unitcode": "L/601/7283",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 8,
+        "unit": "WEBSITE DEVELOPMENT",
+        "unitcode": "Y/601/6623",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 9,
+        "unit": "COMPUTER ANIMATION",
+        "unitcode": "D/601/7658",
+        "year": "2019/20",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 10,
+        "unit": "COMPUTER NETWORKS",
+        "unitcode": "R/601/7320",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 11,
+        "unit": "SYSTEMS ANALYSIS AND DESIGN",
+        "unitcode": "F/601/7278",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 12,
+        "unit": "EVENT DRIVEN PROGRAMMING",
+        "unitcode": "F/601/7281",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 13,
+        "unit": "PROJECT PLANNING WITH IT",
+        "unitcode": "Y/601/7321",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 14,
+        "unit": "COMPUTER SYSTEMS ARCHITECTURE",
+        "unitcode": "J/601/2003",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 15,
+        "unit": "HUMAN COMPUTER INTERFACE",
+        "unitcode": "T/601/7326",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 16,
+        "unit": "INSTALLING AND UPGRADING SOFTWARE",
+        "unitcode": "H/601/7290",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    },
+    {
+        "id": 17,
+        "unit": "MULTIMEDIA DESIGN",
+        "unitcode": "T/601/0439",
+        "year": "2020/21",
+        "finalMark": "DISTINCTION"
+    }
+]

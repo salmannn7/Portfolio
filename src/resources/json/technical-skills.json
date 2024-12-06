@@ -1,0 +1,233 @@
+[
+    {
+        "id": 1,
+        "name": "Java",
+        "type": "language",
+        "exp": 2,
+        "link": "https://dev.java/learn/"
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "type": "language",
+        "exp": 2,
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "id": 3,
+        "name": "Python",
+        "type": "language",
+        "exp": 1,
+        "link": "https://www.python.org/about/"
+    },
+    {
+        "id": 4,
+        "name": "C",
+        "type": "language",
+        "exp": 0,
+        "link": "https://en.cppreference.com/w/c/language"
+    },
+    {
+        "id": 5,
+        "name": "C++",
+        "type": "language",
+        "exp": 0,
+        "link": "https://en.cppreference.com/w/"
+    },
+    {
+        "id": 6,
+        "name": "SQL",
+        "type": "language",
+        "exp": 1,
+        "link": "https://www.postgresql.org/docs/current/sql.html"
+    },
+    {
+        "id": 7,
+        "name": "HTML",
+        "type": "language",
+        "exp": 2,
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+        "id": 8,
+        "name": "CSS",
+        "type": "language",
+        "exp": 2,
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+        "id": 9,
+        "name": "Vue.JS",
+        "type": "framework",
+        "exp": 2,
+        "link": "https://vuejs.org/guide/introduction.html"
+    },
+    {
+        "id": 10,
+        "name": "React.JS",
+        "type": "framework",
+        "exp": 1,
+        "link": "https://react.dev/learn"
+    },
+    {
+        "id": 11,
+        "name": "Node.JS",
+        "type": "framework",
+        "exp": 1,
+        "link": "https://nodejs.org/docs/latest/api/"
+    },
+    {
+        "id": 12,
+        "name": "Express.JS",
+        "type": "framework",
+        "exp": 2,
+        "link": "https://expressjs.com/"
+    },
+    {
+        "id": 13,
+        "name": "Flask",
+        "type": "framework",
+        "exp": 0,
+        "link": "https://flask.palletsprojects.com/en/stable/#user-s-guide"
+    },
+    {
+        "id": 14,
+        "name": "JUnit",
+        "type": "framework",
+        "exp": 1,
+        "link": "https://junit.org/junit5/docs/current/user-guide/"
+    },
+    {
+        "id": 15,
+        "name": "Amazon Web Services",
+        "type": "framework",
+        "exp": 1,
+        "link": "https://docs.aws.amazon.com/"
+    },
+    {
+        "id": 16,
+        "name": "Tailwind CSS",
+        "type": "framework",
+        "exp": 2,
+        "link": "https://tailwindcss.com/docs/installation"
+    },
+    {
+        "id": 17,
+        "name": "TestFX",
+        "type": "framework",
+        "exp": 0,
+        "link": "https://testfx.github.io/TestFX/"
+    },
+    {
+        "id": 18,
+        "name": "SQLite",
+        "type": "framework",
+        "exp": 2,
+        "link": "https://www.sqlite.org/docs.html"
+    },
+    {
+        "id": 19,
+        "name": "MySQL",
+        "type": "framework",
+        "exp": 1,
+        "link": "https://dev.mysql.com/doc/"
+    },
+    {
+        "id": 20,
+        "name": "Visual Studio Code",
+        "type": "environment",
+        "exp": 2,
+        "link": "https://code.visualstudio.com/docs"
+    },
+    {
+        "id": 21,
+        "name": "Eclipse",
+        "type": "environment",
+        "exp": 1,
+        "link": "https://www.eclipse.org/documentation/"
+    },
+    {
+        "id": 22,
+        "name": "IntelliJ",
+        "type": "environment",
+        "exp": 1,
+        "link": "https://www.jetbrains.com/help/idea/getting-started.html"
+    },
+    {
+        "id": 23,
+        "name": "GitHub",
+        "type": "environment",
+        "exp": 1,
+        "link": "https://docs.github.com/en"
+    },
+    {
+        "id": 24,
+        "name": "Postman",
+        "type": "environment",
+        "exp": 2,
+        "link": "https://learning.postman.com/docs/introduction/overview/"
+    },
+    {
+        "id": 25,
+        "name": "MySQL Workbench",
+        "type": "environment",
+        "exp": 1,
+        "link": "https://dev.mysql.com/doc/workbench/en/"
+    },
+    {
+        "id": 26,
+        "name": "Replit",
+        "type": "environment",
+        "exp": 1,
+        "link": "https://docs.replit.com/"
+    },
+    {
+        "id": 27,
+        "name": "Agile",
+        "type": "methodology",
+        "exp": 2,
+        "link": "https://www.atlassian.com/agile"
+    },
+    {
+        "id": 28,
+        "name": "Scrum",
+        "type": "methodology",
+        "exp": 2,
+        "link": "https://www.atlassian.com/agile/scrum"
+    },
+    {
+        "id": 29,
+        "name": "Kanban",
+        "type": "methodology",
+        "exp": 1,
+        "link": "https://www.atlassian.com/agile/kanban"
+    },
+    {
+        "id": 30,
+        "name": "Feature-Driven Development",
+        "type": "methodology",
+        "exp": 0,
+        "link": "http://www.featuredrivendevelopment.com/resources"
+    },
+    {
+        "id": 31,
+        "name": "Windows",
+        "type": "os",
+        "exp": 2,
+        "link": "https://learn.microsoft.com/en-us/windows/"
+    },
+    {
+        "id": 32,
+        "name": "Linux",
+        "type": "os",
+        "exp": 1,
+        "link": "https://docs.kernel.org/"
+    },
+    {
+        "id": 33,
+        "name": "MacOS",
+        "type": "os",
+        "exp": 1,
+        "link": "https://developer.apple.com/macos/"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "unit": "CLOUD COMPUTING",
+        "submissions": [
+            {
+                "name": "Creative Piece",
+                "weight": "100%",
+                "mark": 100
+            }
+        ],
+        "credits": 15,
+        "finalMark": 100
+    },
+    {
+        "id": 2,
+        "unit": "PROGRAMMING LANGUAGES AND PARADIGMS",
+        "submissions": [
+            {
+                "name": "Computer Skills",
+                "weight": "100%",
+                "mark": 68
+            }
+        ],
+        "credits": 15,
+        "finalMark": 68
+    },
+    {
+        "id": 3,
+        "unit": "RESEARCH IN COMPUTING",
+        "submissions": [
+            {
+                "name": "Report",
+                "weight": "100%",
+                "mark": 77
+            }
+        ],
+        "credits": 15,
+        "finalMark": 77
+    },
+    {
+        "id": 4,
+        "unit": "RESEARCH METHODS",
+        "submissions": [
+            {
+                "name": "Report",
+                "weight": "100%",
+                "mark": 52
+            }
+        ],
+        "credits": 15,
+        "finalMark": 52
+    },
+    {
+        "id": 5,
+        "unit": "SOFTWARE TESTING AND QUALITY ASSURANCE",
+        "submissions": [
+            {
+                "name": "Report",
+                "weight": "30%",
+                "mark": 66
+            },
+            {
+                "name": "Test",
+                "weight": "70%",
+                "mark": 68
+            }
+        ],
+        "credits": 30,
+        "finalMark": 67
+    },
+    {
+        "id": 6,
+        "unit": "SYNOPTIC PROJECT",
+        "submissions": [
+            {
+                "name": "Piece",
+                "weight": "35%",
+                "mark": 77
+            },
+            {
+                "name": "Portfolio",
+                "weight": "65%",
+                "mark": 74
+            }
+        ],
+        "credits": 30,
+        "finalMark": 75
+    }
+]

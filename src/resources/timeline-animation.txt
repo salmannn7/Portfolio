@@ -1,0 +1,100 @@
+html/js:
+import "../css/App.css";
+import React, { useEffect, useState } from 'react';
+
+function Footer() {
+    const [strands, setStrands] = useState([]);
+
+    useEffect(() => {
+        // We are creating a fixed number of "strands" (5), and each one has 10 sub-strands
+        const strandsCount = 100;
+        const newStrands = [];
+
+        for (let i = 0; i < strandsCount; i++) {
+            const subStrands = []; // To hold the sub-strands for each strand
+            for (let j = 0; j < 10; j++) {
+                subStrands.push({
+                    id: `strand-${i}-${j}`, // Unique id for each sub-strand
+                    parentId: i, // Foreign key reference to the parent strand
+                });
+            }
+            newStrands.push({
+                id: i, // Unique id for the main strand
+                subStrands: subStrands,
+            });
+        }
+
+        setStrands(newStrands); // Set the strands data
+    }, []);
+
+    return (
+        <footer className="w-full h-screen snap-start relative overflow-hidden bg-black">
+            {strands.map((strand) => (
+                <div key={strand.id} className="strands" style={{ top: `${(Math.random() * 1000).toFixed(2)}px` }}>
+                    {strand.subStrands.map((subStrand, subIndex) => (
+                        <div 
+                            key={subStrand.id} 
+                            className="strand" 
+                            style={{ animationDelay: `${(Math.random() * 5).toFixed(2)}s`, top: `${(Math.random() * 5).toFixed(2)}px` }}
+                        ></div>
+                    ))}
+                </div>
+            ))}
+            <div className="w-full h-full flex justify-center items-center relative z-10 text-white">
+                <p>THANK YOU FOR VIEWING MY PORTFOLIO</p>
+            </div>
+        </footer>
+    );
+}
+
+export default Footer;
+
+css:
+/* Create rope-like strands */
+.strands {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  pointer-events: none;
+}
+
+.strand {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  animation: swish 4s ease-in-out infinite;
+  transform-origin: start;
+  box-shadow: #84cc16 0px 0px px 1px;
+}
+
+.strand:nth-child(odd) {
+  background: green;
+}
+
+.strand:nth-child(even) {
+  background: darkgreen;
+}
+
+@keyframes swish {
+  0% {
+      opacity: 0;
+      transform: translateY(0) rotate(0deg);
+  }
+  25% {
+      transform: translateY(2.5px) rotate(0.5deg);
+  }
+  50% {
+    opacity: 1;
+      transform: translateY(-5px) rotate(-1deg);
+  }
+  75% {
+      transform: translateY(2.5px) rotate(0.5deg);
+  }
+  100% {
+    opacity: 0;
+      transform: translateY(0) rotate(0deg);
+  }
+}

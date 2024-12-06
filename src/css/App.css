@@ -1,0 +1,466 @@
+footer {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+}
+
+.footer-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-button {
+  background-color: #09090b;
+  color: inherit;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.nav-button:hover img {
+  filter: invert();
+}
+
+.nav-button-active {
+  background-color: #FFFFFF; /* Default background color */
+  color: black;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 0.6s ease-in-out forwards;
+}
+
+.fade-out {
+  opacity: 1;
+  animation: fade-out 0.6s ease-in-out forwards;
+}
+
+.highlighted-text-1, .highlighted-text-2, .highlighted-text-3 {
+  cursor: pointer;
+  color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-style: italic;
+  transition: background-position 0.5s ease-in-out;
+}
+
+.highlighted-text-1, .highlighted-text-3 {
+  background-position-x: 100%;
+  background-position-y: 0;
+  background-size: 200% 200%;
+}
+
+.highlighted-text-2 {
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: 200% 200%;
+}
+
+/* Default gradient colors */
+.highlighted-text-1 {
+  background-image: linear-gradient(to right, #f97316 50%, #3b82f6);
+}
+.highlighted-text-2 {
+  background-image: linear-gradient(to left, #eab308 50%, #8b5cf6);
+}
+.highlighted-text-3 {
+  background-image: linear-gradient(to right, #ef4444 50%, #22c55e);
+}
+
+.highlighted-text-1:hover, .highlighted-text-3:hover {
+  color: transparent;
+  background-position:0 0;
+}
+
+.highlighted-text-2:hover {
+  color: transparent;
+  background-position:100% 100%;
+}
+
+.test {
+  position: absolute;
+  cursor: pointer;
+  left: 50%;
+  top: 75vh;
+  transform: translate(-50%, -15%);
+  width: 18rem;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.test.go {
+  left: 0;
+  top: 0;
+  transform: translate(0, 0);
+  width: 12rem;
+}
+
+.bopping {
+  animation: bop 0.4s ease-in-out infinite alternate;
+}
+
+.down {
+  animation: down 0.5s ease-in-out; 
+}
+
+.up {
+  animation: up 0.5s ease-in-out; 
+}
+
+.edu-button {
+  background-color: white;
+  color: inherit;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.edu-button:hover {
+  background-color: #3f3f46;
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.scroller *::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.scroller *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroller *::-webkit-scrollbar-thumb {
+  background-color: #3f3f46;
+  border-radius: 9999px;
+}
+
+.zoom-in .image {
+  scale: 1;
+  transition: scale 0.2s ease-in-out;
+}
+
+.zoom-in:hover .image {
+  scale: 1.125;
+  transition: scale 0.2s ease-in-out;
+}
+
+.proj-overlay {
+  background-image: linear-gradient(to top, black , transparent);
+  background-position-x: 0;
+  background-position-y: 25%;
+  background-size: 150% 150%;
+  transition: background-position 0.2s ease-in-out;
+}
+
+.proj-overlay:hover {
+  background-position-x: 0;
+  background-position-y: 100%;
+}
+
+.centre-animation {
+  max-height: 0; /* Collapsed state */
+  transition: max-height 0.2s ease-in-out;
+  color: white;
+}
+
+.proj-overlay:hover .centre-animation {
+  max-height: 100%; /* Expanded state */
+  transition: max-height 0.5s ease-in-out;
+  color: black;
+}
+
+.mask {
+  mask-image: linear-gradient(to right, transparent, black, black, transparent);
+}
+
+.mask-l {
+  mask-image: linear-gradient(to left, black, transparent);
+  filter: blur(5px);
+}
+
+.mask-r {
+  mask-image: linear-gradient(to right, black, transparent);
+  filter: blur(5px);
+}
+
+.smooth-transition {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.skills.language {
+  background-image: linear-gradient(to right, #3b82f6, #06b6d4);
+}
+
+.skills.framework {
+  background-image: linear-gradient(to right, #22c55e, #84cc16);
+}
+
+.skills.environment {
+  background-image: linear-gradient(to right, #ef4444, #f43f5e);
+}
+
+.skills.methodology {
+  background-image: linear-gradient(to right, #a855f7, #8b5cf6);
+}
+
+.skills.os {
+  background-image: linear-gradient(to right, #eab308, #f59e0b);
+}
+
+.skills {
+  box-shadow: 0px 0px 0px 0px #FFFF;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.skills:hover {
+  box-shadow: 0px 0px 10px 2px #FFFF;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.aura {
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out; /* Apply transition to transform */
+  box-shadow: 0px 0px 10px 2px #FFFF;
+}
+
+.aura.begin {
+  transform: scale(1.2); /* Use transform for scaling */
+}
+
+.resize {
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out; /* Smooth transition for width and height */
+  width: 0%; /* Initial width */
+  height: 0%; /* Initial height */
+}
+
+.resize.active {
+  width: 100%; /* Full width when active */
+  height: 100%; /* Full height when active */
+}
+
+.overlay-hover {
+  display: flex;
+  flex: content;
+  place-items: start;
+  justify-content: end;
+  background-color: rgb(0,0,0,0);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.overlay-hover:hover {
+  place-items: center;
+  justify-content: center;
+  background-color: rgb(0,0,0,0.5);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.overlay-hover svg {
+  width: 10rem;
+  height: auto;
+}
+
+.overlay-hover:hover svg {
+  width: 20rem;
+  height: auto;
+}
+
+.overlay-hover .svg-custom-class {
+  width: 10rem;
+  height: auto;
+  fill: #000000;
+}
+
+.overlay-hover:hover .svg-custom-class {
+  width: 20rem;
+  height: auto;
+  fill: #FFFFFF;
+}
+
+.overlay-hover img {
+  filter: invert(1);
+  width: 3rem;
+  height: auto;
+}
+
+.overlay-hover:hover img {
+  width: 6rem;
+  height: auto;
+}
+
+.overlay-hover span {
+  font-size: 3rem;
+  color: black;
+}
+
+.overlay-hover:hover span {
+  font-size: 6rem;
+  color: white;
+}
+
+.whole-social .social {
+  scale: 1;
+  transition: scale 0.2s ease-in-out;
+}
+
+.whole-social:hover .social {
+  scale: 1.1;
+  transition: scale 0.2s ease-in-out;
+}
+
+.app-pic {
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out; /* Apply transition to transform */
+  box-shadow: 0px 0px 5px 0px #FFFF;
+  cursor: pointer;
+}
+
+.app-pic:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out; /* Apply transition to transform */
+  box-shadow: 0px 0px 10px 2px #FFFF;
+}
+
+.about-box {
+  scale: 1; 
+  box-shadow: 0px 0px 10px 0px #FFFF;
+  transition: scale 0.2s ease-in-out, box-shadow 0.2s ease-in-out, margin 0.2s ease-in-out;
+}
+
+.about-box:hover {
+  z-index: 50;
+  scale: 1.1;
+  box-shadow: 0px 0px 15px 5px #FFFF;
+  transition: scale 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.about-box:nth-child(1) {
+  transform: translateX(0);
+}
+
+.about-box:nth-child(2) {
+  transform: translateX(-1rem);
+}
+
+.about-box:nth-child(3) {
+  transform: translateX(-2rem);
+}
+
+.about-box:nth-child(4) {
+  transform: translateX(-3rem);
+}
+
+.about-box:nth-child(even) {
+  margin-bottom: auto;
+}
+
+.about-box:nth-child(odd) {
+  margin-top: auto;
+}
+
+.about-box.centered {
+  transform: translateX(0);
+  transition: margin 0.2s ease-in-out, transform 0.2 ease-in-out;
+}
+
+.credits-scroll {
+  animation: scrollCredits 20s ease-in-out;
+}
+
+/* Animation */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bop {
+  0% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes zoom-in-out {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    background-color: #FFFFFF;
+  }
+  100% {
+    background-color: #a1a1aa;
+  }
+}
+
+@keyframes scrollCredits {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(-100%);
+  }
+}

@@ -1,0 +1,10 @@
+                                <div className="w-full h-16 bg-zinc-700 mt-auto rounded-full p-2 flex">
+                                    <div className="w-full h-full flex items-center justify-center">
+                                        <p>CV/Resume Available Here (PDF):</p>
+                                    </div>
+                                    <div className="h-full w-fit bg-black rounded-full px-16 flex items-center justify-center cursor-pointer">
+                                        <p className="pointer-events-none select-none">
+                                            Download
+                                        </p>
+                                    </div>
+                                </div>

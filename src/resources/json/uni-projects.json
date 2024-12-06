@@ -1,0 +1,317 @@
+[
+    {
+        "id": 1,
+        "name": "FINAL YEAR SYNOPTIC PROJECT (HELIOS SOLE)",
+        "tags": "helios-sole-project",
+        "note": "## ONLY FRONTEND HOSTED VIA GITHUB, BACKEND FILES AVAILABLE ON GITHUB ##",
+        "desc": "Helios Sole is my synoptic project for the final year of university, developed to address the challenge: \"Create an e-commerce platform with a built-in recommendation system.\" This website focuses on sneakers as its primary product, combining cutting-edge web design with advanced recommendation technology to redefine the shopping experience.\nThe cornerstone of Helios Sole is its hybrid recommendation system, which integrates both content-based filtering and collaborative filtering techniques. This system dynamically tailors product suggestions based on user preferences, browsing history, and purchasing patterns. By leveraging user data alongside patterns from similar customers, the platform delivers highly personalised recommendations that enhance product discovery and increase user engagement.\n\nKey Features of the Recommendation System:\n • Content-Based Filtering: Analyses product attributes such as brand, size, and colour, along with user preferences, to suggest items closely aligned with individual tastes.\n • Collaborative Filtering: Identifies patterns in the behaviour of users with similar preferences to offer additional suggestions, expanding product exposure beyond initial preferences.\n • Hybrid Model: Combines the strengths of both approaches, merging their outputs into a unified list of recommendations. The system ranks suggestions based on relevance, ensuring users are presented with the most appealing options.\n • Dynamic Integration: Recommendations are embedded across the platform via carousels, product pages, and personalised search results, ensuring seamless visibility during the shopping journey.\n\nAdditional Features:\n • Modern User Interface: Inspired by industry leaders like Nike and StockX, the platform offers a clean, intuitive design that simplifies navigation and encourages engagement.\n • Advanced Filtering and Sorting: Users can search for sneakers using robust tools, refining options by attributes such as brand, size, price, and style.\n • Secure Checkout Process: Employs encrypted password storage, session token management, and GDPR-compliant data handling to safeguard user data.\n\nDevelopment Highlights:\nThe recommendation system was meticulously designed and implemented using a modular approach, ensuring adaptability and scalability. Written in JavaScript and integrated into the platform via Express.js, the system is a dedicated automation component that interfaces seamlessly with the database and front-end. The hybrid model underwent extensive testing, including A/B testing and user feedback evaluations, to fine-tune its effectiveness and optimize user satisfaction.\nHelios Sole demonstrates how smaller e-commerce platforms can harness the power of recommendation systems to deliver a tailored shopping experience typically found in large-scale retail giants. By leveraging advanced algorithms and user-centric design, this project bridges the gap between personalised customer engagement and technological innovation.",
+        "frameworks": [
+            {
+                "name": "Vue.JS"
+            },
+            {
+                "name": "Node.JS"
+            },
+            {
+                "name": "Express.JS"
+            },
+            {
+                "name": "Tailwind CSS"
+            },
+            {
+                "name": "SQLite"
+            }
+        ],
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "SQL"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "Postman"
+            }
+        ],
+        "links": [
+            {
+                "type": "Frontend",
+                "site": "Hosted",
+                "link": "https://salmannn7.github.io/HeliosSole",
+                "status": "available"
+            },
+            {
+                "type": "Frontend",
+                "site": "GitHub",
+                "link": "https://github.com/salmannn7/HeliosSole",
+                "status": "available"
+            },
+            {
+                "type": "Backend",
+                "site": "GitHub",
+                "link": "https://github.com/salmannn7/HeliosSoleBackend",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "FINAL YEAR PROGRAMMING LANGUAGES AND PARADIGMS (PASSWORD GAME)",
+        "tags": "programming-paradigms",
+        "note": "## UNAVAILABLE TO VIEW ##",
+        "desc": "In my final year at university, I enrolled in a unit called \"Programming Languages and Paradigms,\" where I was tasked with developing a game using three different programming languages and paradigms. The game I created, \"The Password Game,\" is inspired by a similar game from Neal.Fun, where the user must generate a password that complies with an ever-evolving set of rules. Each time the user successfully meets one rule, a new one is introduced, requiring the password to be updated accordingly.\n\nFor this project, I implemented the game using three different programming languages: Python, C, and C++. Each language was chosen to represent a different paradigm and approach to problem-solving. In Python, I used Object-Oriented Programming (OOP), which allowed me to structure the game in classes and objects, promoting code reusability and organisation. In C, I employed a Procedural paradigm, focusing on step-by-step procedures and functions to handle the game's logic. Finally, in C++, I applied an Imperative approach, emphasising the use of commands and control flow to manage the game's state and progression.\n\nThe game involved a variety of rules, some of which were personally meaningful. For example, one rule was based on the moon phase on my birthday, specifically the phase that occurred on January 29th, 2003, which required the user to include the corresponding moon phase emoji (🌘) in their password. Another rule was inspired by my favourite footballer, asking players to include the last two names of the current captain of the Portugal National Football Team. Additionally, I incorporated two Roman-themed rules, reflecting my fascination with ancient civilization: one involved Roman numerals that must multiply to 50, and another required the inclusion of a Roman fort name from any modern English city.\n\nOther rules in the game included a special challenge to use the first letter of the Arabic alphabet, \"alif\", and a task where players had to insert the hex code of the blue colour associated with Tiffany & Co (#81d8d0). Finally, to ensure the password was both challenging and creative, a rule required players to include a sponsor of the UEFA Champions League. These unique and varied rules not only made the game engaging but also highlighted my personal interests, from history to sports and culture.\n\nEach solution presented unique differences. For example, in the Python implementation, I used a Tkinter GUI, allowing the user to enter the password while the rules dynamically updated as they typed. In contrast, the C and C++ solutions were implemented purely in the terminal, as there are fewer GUI frameworks available for these languages. Additionally, while the Python solution ran smoothly in Visual Studio Code, the C and C++ implementations required Replit to execute, due to the lack of support for their respective compilers in Visual Studio Code.\n\nThis project not only showcased my ability to work with different programming languages but also deepened my understanding of various paradigms and how they influence the design and functionality of software. By solving the same problem in three distinct ways, I gained valuable insights into performance optimisation, language-specific features, and effective coding practices across different environments.",
+        "frameworks": [
+            {
+                "name": "Tkinter"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Python"
+            },
+            {
+                "name": "C"
+            },
+            {
+                "name": "C++"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "Replit"
+            }
+        ],
+        "links": [
+            {
+                "type": "Solutions",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "SECOND YEAR THEMATIC PROJECT (TOURNAMENT ORGANISATIONAL TOOL)",
+        "tags": "thematic-project",
+        "note": "## UNAVAILBLE TO VIEW ##\n## THIS PROJECT WAS A COLLABORATIVE EFFORT BY THE TEAM. CONTRIBUTIONS INCLUDED RESEARCH, DESIGN, AND PRESENTATION, WITH ALL MEMBERS ACTIVELY PARTICIPATING ##\n## MEMBERS INCLUDE: SALMAN TALIB(ME), ASIR MIR, MUHAMMAD ADNAN SHAHID, AND FARAJ RAHMAN ##",
+        "desc": "As part of my second year at university, I collaborated with three teammates on a thematic project to develop a tournament organising and scheduling web application. The application enables users to create, view, and manage tournament trees, allowing for team customisation, score submissions, and ongoing edits. Our team successfully delivered a functional and user-friendly platform that streamlines tournament management.\nWe originally planned to include three sports in the application: football, basketball, and tennis. However, only football was ultimately implemented. Basketball and tennis were omitted due to time constraints and a lack of in-depth knowledge about these sports, as the majority of the team was more familiar with football and was a simple concept to implement.\n\nKey Features:\n • Customisable Teams: Users can add up to 16 teams, following a structure inspired by the UEFA Champions League format.\n • Match Scoring: Scores can be entered for each match, progressing through rounds from the Round of 16 to the Final.\n • User Accounts: Registered users can save tournaments for future reference and make edits as needed, ensuring flexibility and continuity.\n\nDevelopment Highlights:\nFor this full-stack project, we employed a modern tech stack similar to our other university projects:\n • Server-side: Built with Express.js, ensuring a robust and scalable backend, worked on by Asif Mir.\n • Client-side: Developed using Vue.js for a dynamic and responsive user interface, which was developed by me (Salman Talib).\n • Styling: Leveraged Tailwind CSS for its flexibility and utility-first design principles, with the combined efforts of Faraj Rahman and Adnan Shahid able to integrate the designs.\n\nTo facilitate teamwork and seamless collaboration, project files were stored and managed in a shared OneDrive folder named \"Thematic.\" This approach allowed the entire team to access, edit, and implement features in real-time.\nThis project not only strengthened my technical skills in full-stack development but also emphasised the importance of effective teamwork and project management in delivering a successful application.",
+        "frameworks": [
+            {
+                "name": "Vue.JS"
+            },
+            {
+                "name": "Node.JS"
+            },
+            {
+                "name": "Express.JS"
+            },
+            {
+                "name": "Tailwind CSS"
+            },
+            {
+                "name": "SQLite"
+            }
+        ],
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "SQL"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "Postman"
+            }
+        ],
+        "links": [
+            {
+                "type": "Frontend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            },
+            {
+                "type": "Backend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "SECOND YEAR FULL STACK DEVELOPMENT PROJECT (WORD PUBLISHER)",
+        "tags": "word-publisher-project",
+        "note": "## UNAVAILABLE TO VIEW ##",
+        "desc": "During the first semester of my second year at university, I undertook my first full-stack development project as part of the \"Full Stack Development\" unit. The project required me to create a blog forum site, akin to Reddit, where users could post, edit, and view blogs. I named the project \"Word Publisher\" and successfully completed it, marking my initial foray into full-stack development. This experience laid the foundation for my skills in designing and implementing web applications, which I have since applied to more complex projects.\n\nKey Features\n • Blog Viewing: Users can browse and read blogs created by others via the home page.\n • Blog Posting and Editing: Users can create and edit their own blogs, which are visible to others.\n • Comments: Users can post and view comments under different blogs, fostering interaction.\n • User Accounts: Registered users can access features such as posting, editing, and commenting on blogs.\n\nDevelopment Highlights\nThis project introduced me to a full-stack development tech stack, which I refined and continued using in subsequent projects:\n • Server-side: Built with Express.JS, a Node.JS framework. While initially challenging, I steadily improved my proficiency in future developments and eventually mastered it, enabling me to apply my knowledge to other frameworks in future projects.\n • Client-side: Developed using Vue.JS, which provided a dynamic and responsive user interface. My prior familiarity with HTML made this part of the process more manageable.\n • Styling: Utilised Tailwind CSS for its flexibility and utility-first design principles. While not required for the project, my lecturer recommended it as an alternative to regular CSS, along with Bootstrap. Since this project, I have consistently used Tailwind CSS in my full-stack projects.\n\nThis project was pivotal in shaping my technical expertise and project management skills. It taught me the importance of time management, as I approached development by completing the front-end and back-end components separately before merging them seamlessly. The skills I developed through \"Word Publisher\" significantly enhanced my ability to handle more complex projects later in my academic journey, culminating in a highly functional and intricate final-year project.",
+        "frameworks": [
+            {
+                "name": "Vue.JS"
+            },
+            {
+                "name": "Node.JS"
+            },
+            {
+                "name": "Express.JS"
+            },
+            {
+                "name": "Tailwind CSS"
+            },
+            {
+                "name": "SQLite"
+            }
+        ],
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "SQL"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "Postman"
+            }
+        ],
+        "links": [
+            {
+                "type": "Frontend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            },
+            {
+                "type": "Backend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "FIRST YEAR TEAM PROJECT (MMU BUSYNESS METER)",
+        "tags": "team-project",
+        "note": "## UNAVAILBLE TO VIEW ##\n## THIS PROJECT WAS A COLLABORATIVE EFFORT BY THE TEAM. CONTRIBUTIONS INCLUDED RESEARCH, DESIGN, AND PRESENTATION, WITH ALL MEMBERS ACTIVELY PARTICIPATING ##\n## MEMBERS INCLUDE: SALMAN TALIB(ME), WILLIAM HARRIS, THOMAS CAFFERTY, SAMMI HOPKINS, AND ROXIE QUINN ##",
+        "desc": "Lorem Ipsum",
+        "frameworks": [
+            {
+                "name": "Node.JS"
+            },
+            {
+                "name": "MySQL"
+            }
+        ],
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "SQL"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "MySQL Workbench"
+            }
+        ],
+        "links": [
+            {
+                "type": "Frontend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            },
+            {
+                "type": "Backend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "FIRST YEAR WEB DEVELOPMENT PROJECT (J. COLE WEBSITE)",
+        "tags": "j-cole-project",
+        "note": "## UNAVAILABLE TO VIEW ##",
+        "desc": "Lorem Ipsum",
+        "frameworks": [
+            {
+                "name": "N/A"
+            }
+        ],
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "Postman"
+            }
+        ],
+        "links": [
+            {
+                "type": "Frontend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            }
+        ]
+    }
+]

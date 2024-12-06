@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "subject": "ART & DESIGN",
+        "code": "8202",
+        "year": "2019",
+        "grade": "5"
+    },
+    {
+        "id": 2,
+        "subject": "COMBINED SCIENCE",
+        "code": "8464F",
+        "year": "2019",
+        "grade": "5/4"
+    },
+    {
+        "id": 3,
+        "subject": "COMPUTER SCIENCE",
+        "code": "J276",
+        "year": "2019",
+        "grade": "4"
+    },
+    {
+        "id": 4,
+        "subject": "ENGLISH LANGUAGE",
+        "code": "8700",
+        "year": "2019",
+        "grade": "4"
+    },
+    {
+        "id": 5,
+        "subject": "ENGLISH LITERATURE",
+        "code": "8702",
+        "year": "2019",
+        "grade": "3"
+    },
+    {
+        "id": 6,
+        "subject": "HISTORY",
+        "code": "1HI0FM",
+        "year": "2019",
+        "grade": "4"
+    },
+    {
+        "id": 7,
+        "subject": "MATHEMATICS",
+        "code": "1MA1F",
+        "year": "2019",
+        "grade": "5"
+    },
+    {
+        "id": 8,
+        "subject": "MEDIA STUDIES",
+        "code": "C680QS",
+        "year": "2019",
+        "grade": "4"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Communication",
+        "lvl": 1,
+        "info": "Strong verbal and written skills; experienced in delivering presentations, drafting reports, and clear communication, mainly in academic settings."
+    },
+    {
+        "id": 2,
+        "name": "Teamwork",
+        "lvl": 2,
+        "info": "Proven ability to collaborate effectively in teams; experienced in contributing to and leading group projects."
+    },
+    {
+        "id": 3,
+        "name": "Problem Solving",
+        "lvl": 2,
+        "info": "Skilled in quickly identifying and resolving issues; adept at troubleshooting and optimising solutions."
+    },
+    {
+        "id": 4,
+        "name": "Adaptability",
+        "lvl": 2,
+        "info": "Quick learner with the ability to adjust to new challenges, tools, and environments efficiently."
+    },
+    {
+        "id": 5,
+        "name": "Time Management",
+        "lvl": 2,
+        "info": "Capable of managing multiple tasks, prioritising effectively, and meeting deadlines without compromising quality."
+    },
+    {
+        "id": 6,
+        "name": "Leadership",
+        "lvl": 1,
+        "info": "Experienced in guiding and motivating teams to achieve goals; strong decision-making and delegation skills."
+    },
+    {
+        "id": 7,
+        "name": "Conflict Resolution",
+        "lvl": 0,
+        "info": "Skilled in mediating disputes and finding common ground; adept at maintaining positive relationships even during challenging situations."
+    },
+    {
+        "id": 8,
+        "name": "Empath",
+        "lvl": 1,
+        "info": "Ability to understand and share the feelings of others; skilled in active listening and providing thoughtful feedback."
+    },
+    {
+        "id": 9,
+        "name": "Critical Thinking",
+        "lvl": 2,
+        "info": "Able to evaluate information objectively and make sound judgments; experienced in analyzing complex scenarios."
+    },
+    {
+        "id": 10,
+        "name": "Initiative",
+        "lvl": 0,
+        "info": "Proactive in identifying opportunities and taking action without being prompted; capable of working independently with minimal supervision."
+    },
+    {
+        "id": 11,
+        "name": "Persuasion",
+        "lvl": 0,
+        "info": "Effective in influencing opinions and gaining support; skilled in presenting compelling arguments and negotiating outcomes."
+    },
+    {
+        "id": 12,
+        "name": "Emotional Intelligence",
+        "lvl": 1,
+        "info": "Adept at recognizing and managing one's emotions and understanding others' emotions to foster strong interpersonal relationships."
+    },
+    {
+        "id": 13,
+        "name": "Networking",
+        "lvl": 1,
+        "info": "Skilled in building and maintaining professional relationships; experienced in connecting with individuals to share knowledge and resources."
+    },
+    {
+        "id": 14,
+        "name": "Active Listening",
+        "lvl": 0,
+        "info": "Strong ability to focus on and understand others' perspectives; experienced in providing feedback that demonstrates comprehension."
+    },
+    {
+        "id": 15,
+        "name": "Negotiation",
+        "lvl": 0,
+        "info": "Adept at reaching mutually beneficial agreements; skilled in resolving differences effectively and fostering win-win solutions."
+    }
+]
