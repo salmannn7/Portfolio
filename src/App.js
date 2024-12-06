@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './css/App.css';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
@@ -6,7 +6,7 @@ import Home from './components/Home.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <div className="App">
         <Header className="z-50" />
         <main className="z-0">
