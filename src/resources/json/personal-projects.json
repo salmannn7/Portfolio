@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "MUFC DATABASE (2023)",
-        "tags": "tba",
+        "tags": "mufc-database-project",
         "note": "## UNAVAILABLE TO VIEW ##",
         "desc": "Lorem Ipsum",
         "frameworks": [
@@ -62,7 +62,7 @@
     {
         "id": 2,
         "name": "UNCANNY CLOTHING (2024)",
-        "tags": "tba",
+        "tags": "uncanny-clothing",
         "note": "## UNAVAILABLE TO VIEW ##",
         "desc": "Lorem Ipsum",
         "frameworks": [
@@ -122,7 +122,7 @@
     {
         "id": 3,
         "name": "PREMIER LEAGUE PREDICTOR (2023)",
-        "tags": "tba",
+        "tags": "premier-league-predictor",
         "note": "## UNAVAILBLE TO VIEW ##",
         "desc": "Lorem Ipsum",
         "frameworks": [
@@ -161,7 +161,7 @@
     {
         "id": 4,
         "name": "INITIAL CIPHER (2024)",
-        "tags": "tba",
+        "tags": "initial-cipher",
         "note": "## UNAVAILABLE TO VIEW ##",
         "desc": "Lorem Ipsum",
         "frameworks": [
@@ -191,7 +191,7 @@
     {
         "id": 5,
         "name": "OLD PORTFOLIO (2024)",
-        "tags": "tba",
+        "tags": "old-portfolio",
         "note": "## UNAVAILBLE TO VIEW ##\n## THIS PROJECT IS ABANDONED ##",
         "desc": "Lorem Ipsum",
         "frameworks": [
@@ -230,7 +230,7 @@
     {
         "id": 6,
         "name": "PORTFOLIO (2024)",
-        "tags": "tba",
+        "tags": "portfolio",
         "note": "## YOU ARE CURRENTLY VIEWING THIS WEBSITE ##",
         "desc": "Lorem Ipsum",
         "frameworks": [
@@ -258,6 +258,12 @@
             }
         ],
         "links": [
+            {
+                "type": "Frontend",
+                "site": "Hosted",
+                "link": "https://salmannn7.github.io/Portfolio",
+                "status": "available"
+            },
             {
                 "type": "Frontend",
                 "site": "GitHub",
