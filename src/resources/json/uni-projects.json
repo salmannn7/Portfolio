@@ -229,7 +229,7 @@
         "name": "FIRST YEAR TEAM PROJECT (MMU BUSYNESS METER)",
         "tags": "team-project",
         "note": "## UNAVAILBLE TO VIEW ##\n## THIS PROJECT WAS A COLLABORATIVE EFFORT BY THE TEAM. CONTRIBUTIONS INCLUDED RESEARCH, DESIGN, AND PRESENTATION, WITH ALL MEMBERS ACTIVELY PARTICIPATING ##\n## MEMBERS INCLUDE: SALMAN TALIB(ME), WILLIAM HARRIS, THOMAS CAFFERTY, SAMMI HOPKINS, AND ROXIE QUINN ##",
-        "desc": "Lorem Ipsum",
+        "desc": "Towards the end of my first year at university, I collaborated with four colleagues on a team project to develop a university building busyness report web application. The application enables users to view and report how busy each MMU (Manchester Metropolitan University) building is using a 5 star system, with each user who reported on the busyness of a particular building to get points and their name on the leaderboard if the user is logged in. Our team successfully delivered a functional and user-friendly platform that ",
         "frameworks": [
             {
                 "name": "Node.JS"
