@@ -87,8 +87,8 @@ const UnitPopUp = ({ isOpen, onClose, id, type }) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center">
-            <div className="w-96 h-96 max-w-96 max-h-96 overflow-hidden bg-zinc-900 opacity-100 rounded-xl">
+        <div onClick={onClose} className="fixed top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center">
+            <div onClick={(e) => e.stopPropagation()} className="w-96 h-96 max-w-96 max-h-96 overflow-hidden bg-zinc-900 opacity-100 rounded-xl">
                 <div className="w-full h-fit grid grid-cols-2">
                     <div className="w-full h-full flex justify-start items-center ml-2">
                         <p className="text-white text-xl ml-0">UNIT INFORMATION</p>

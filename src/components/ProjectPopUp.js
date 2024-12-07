@@ -89,8 +89,8 @@ const ProjectPopUp = ({ isOpen, onClose, id, type }) => {
     if (!isOpen) return null; // Return null to not render the component if isOpen is false
 
     return (
-        <div ref={wholeRef} className="fixed top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-            <div className="w-[80vw] h-[80vh] overflow-hidden bg-zinc-900 opacity-100 rounded-xl">
+        <div ref={wholeRef} onClick={onClose} className="fixed top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+            <div onClick={(e) => e.stopPropagation()} className="w-[80vw] h-[80vh] overflow-hidden bg-zinc-900 opacity-100 rounded-xl">
                 <div className="w-full h-fit grid grid-cols-2">
                     <div className="w-full h-full flex justify-start items-center ml-2">
                         <p className="text-white text-xl ml-0">PROJECT OVERVIEW</p>
