@@ -91,7 +91,7 @@ const ProjectPopUp = ({ isOpen, onClose, id, type }) => {
     return (
         <div ref={wholeRef} onClick={onClose} className="fixed top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
             <div onClick={(e) => e.stopPropagation()} className="w-[80vw] h-[80vh] overflow-hidden bg-zinc-900 opacity-100 rounded-xl">
-                <div className="w-full h-fit grid grid-cols-2">
+                <div className="w-full h-[8vh] grid grid-cols-2">
                     <div className="w-full h-full flex justify-start items-center ml-2">
                         <p className="text-white text-xl ml-0">PROJECT OVERVIEW</p>
                     </div>
@@ -101,7 +101,7 @@ const ProjectPopUp = ({ isOpen, onClose, id, type }) => {
                         </button>
                     </div>
                 </div>
-                <div className="w-full h-96 px-2 overflow-hidden scroller">
+                <div className="w-full h-[72vh] px-2 pb-2 overflow-hidden scroller">
                     <div className="w-full h-full pr-1 rounded-b-xl overflow-y-auto overflow-hidden flex flex-col gap-2 text-white">
                         <div className="w-full h-64 relative flex justify-center">
                             <div className="absolute w-full h-56 z-50 grid grid-cols-3 pointer-events-none">
