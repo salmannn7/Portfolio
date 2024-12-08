@@ -224,12 +224,12 @@ footer {
   background-image: linear-gradient(to right, #eab308, #f59e0b);
 }
 
-.skills {
+.skill-button {
   box-shadow: 0px 0px 0px 0px #FFFF;
   transition: box-shadow 0.1s ease-in-out;
 }
 
-.skills:hover {
+.skill-button:hover {
   box-shadow: 0px 0px 10px 2px #FFFF;
   transition: box-shadow 0.1s ease-in-out;
 }

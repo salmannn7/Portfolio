@@ -462,7 +462,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full flex gap-1 items-center flex-wrap">
                                     {advancedSkills.map((advSkill) => (
-                                        <div ref={(el) => (tSkillRefs.current[advSkill.id] = el)} key={advSkill.id} onClick={() => toggleSkillPopup(advSkill.id, 0)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skills ${advSkill.type} fade-child`}>
+                                        <div ref={(el) => (tSkillRefs.current[advSkill.id] = el)} key={advSkill.id} onClick={() => toggleSkillPopup(advSkill.id, 0)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skill-button skills ${advSkill.type} fade-child`}>
                                             <p className="pointer-events-none flex">{advSkill.name}</p>
                                         </div>
                                     ))}
@@ -474,7 +474,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full flex gap-1 items-center flex-wrap">
                                     {intermediateSkills.map((intSkill) => (
-                                        <div ref={(el) => (tSkillRefs.current[intSkill.id] = el)} key={intSkill.id} onClick={() => toggleSkillPopup(intSkill.id, 0)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skills ${intSkill.type} fade-child`}>
+                                        <div ref={(el) => (tSkillRefs.current[intSkill.id] = el)} key={intSkill.id} onClick={() => toggleSkillPopup(intSkill.id, 0)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skill-button skills ${intSkill.type} fade-child`}>
                                             <p className="pointer-events-none flex">{intSkill.name}</p>
                                         </div>
                                     ))}
@@ -486,7 +486,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full flex gap-1 items-center flex-wrap">
                                     {foundationalSkills.map((foundSkill) => (
-                                        <div ref={(el) => (tSkillRefs.current[foundSkill.id] = el)} key={foundSkill.id} onClick={() => toggleSkillPopup(foundSkill.id, 0)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skills ${foundSkill.type} fade-child`}>
+                                        <div ref={(el) => (tSkillRefs.current[foundSkill.id] = el)} key={foundSkill.id} onClick={() => toggleSkillPopup(foundSkill.id, 0)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skill-button skills ${foundSkill.type} fade-child`}>
                                             <p className="pointer-events-none flex">{foundSkill.name}</p>
                                         </div>
                                     ))}
@@ -505,7 +505,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full flex gap-1 items-center flex-wrap">
                                     {strongSkills.map((strongSkill) => (
-                                        <div ref={(el) => (iSkillRefs.current[strongSkill.id] = el)} key={strongSkill.id} onClick={() => toggleSkillPopup(strongSkill.id, 1)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skills framework fade-child`}>
+                                        <div ref={(el) => (iSkillRefs.current[strongSkill.id] = el)} key={strongSkill.id} onClick={() => toggleSkillPopup(strongSkill.id, 1)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skill-button skills framework fade-child`}>
                                             <p className="pointer-events-none flex">{strongSkill.name}</p>
                                         </div>
                                     ))}
@@ -517,7 +517,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full flex gap-1 items-center flex-wrap">
                                     {moderateSkills.map((modSkill) => (
-                                        <div ref={(el) => (iSkillRefs.current[modSkill.id] = el)} key={modSkill.id} onClick={() => toggleSkillPopup(modSkill.id, 1)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skills os fade-child`}>
+                                        <div ref={(el) => (iSkillRefs.current[modSkill.id] = el)} key={modSkill.id} onClick={() => toggleSkillPopup(modSkill.id, 1)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skill-button skills os fade-child`}>
                                             <p className="pointer-events-none flex">{modSkill.name}</p>
                                         </div>
                                     ))}
@@ -529,7 +529,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full flex gap-1 items-center flex-wrap">
                                     {growthSkills.map((growSkill) => (
-                                        <div ref={(el) => (iSkillRefs.current[growSkill.id] = el)} key={growSkill.id} onClick={() => toggleSkillPopup(growSkill.id, 1)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skills environment fade-child`}>
+                                        <div ref={(el) => (iSkillRefs.current[growSkill.id] = el)} key={growSkill.id} onClick={() => toggleSkillPopup(growSkill.id, 1)} className={`w-fit h-fit text-nowrap cursor-pointer flex px-2 py-1 rounded-full skill-button skills environment fade-child`}>
                                             <p className="pointer-events-none flex">{growSkill.name}</p>
                                         </div>
                                     ))}
