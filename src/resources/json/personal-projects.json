@@ -124,7 +124,7 @@
         "name": "PREMIER LEAGUE PREDICTOR (2023)",
         "tags": "premier-league-predictor",
         "note": "## UNAVAILBLE TO VIEW ##",
-        "desc": "Lorem Ipsum",
+        "desc": "During the summer break of 2023, I developed a small project centred around predicting the upcoming English Premier League season at that time (2023/24). The project features two tables where users can input their predictions for the season, with the other displaying the results. I created this predictor as a fun way to engage with the league while ensuring the underlying mathematics and calculations adhered to the Premier League's points-based system and rules. This side project challenged my mathematical skills, particularly in implementing accurate calculations within a structured framework.\n\nKey Features:\nHowever, due to this project being two straightforward tables, the features are quite limited. The few features it has are:\n • Match Input Table: Users can interact with the table by clicking on individual matchups. The matchups are determined by the first row (representing the away team) and the first column (representing the home team). Each cell corresponds to a specific match. Clicking on a cell determines the result:\nGreen: A win for the home team (3 points) and a loss for the away team.\nGrey: A draw, awarding 1 point to both teams.\nRed: A loss for the home team (0 points) and a win for the away team (3 points).\n • Results Table: The results table dynamically updates whenever the Match Input Table is modified. It calculates and displays the updated standings, including each team's position, total points, number of wins, draws, and losses, reflecting the Premier League's point system.\n\nDevelopment Highlights: \nThis project focuses solely on frontend development and styling, featuring the following:\n • Client-side: The frontend is built with Vue.js, chosen for its simplicity and my familiarity with it at the time. Its clean structure made it an ideal choice for this project.\n • Styling: Tailwind CSS was used once again to design and style the tables, providing a streamlined and efficient approach to layout and styling.\n\nAlthough this was a mini project and didn’t contribute to developing interpersonal skills, it offered valuable technical benefits. Specifically, it enhanced my mathematical and computational skills within a programming context. Moreover, it was a satisfying project to complete, as it served a practical purpose and was achievable within a short timeframe.",
         "frameworks": [
             {
                 "name": "Vue.JS"
@@ -163,7 +163,7 @@
         "name": "INITIAL CIPHER (2024)",
         "tags": "initial-cipher",
         "note": "## UNAVAILABLE TO VIEW ##",
-        "desc": "Lorem Ipsum",
+        "desc": "In the winter of 2024, I created a Java program that explored encryption techniques as a passion project to improve my Java programming skills and deepen my understanding of cryptographic algorithms. The program provides a secure mechanism to encrypt user-provided passwords using a combination of techniques, including a custom character-doubling method, Caesar cipher, and Vigenère cipher.\n\nKey Features:\n • Password Input and Encryption: Users can input a password, which is then processed through multiple layers of encryption for added security.\n • Doubling Characters: Each character of the password is duplicated to increase its length and introduce redundancy.\n • Alternating Caesar Cipher: A modified Caesar cipher encrypts the password by alternating shifts for consecutive letters: one shifted forward and the next backward.\n • Vigenère Cipher: The final encryption layer applies the Vigenère cipher, using a user-specified key to add complexity to the transformation.\n\nDevelopment Highlights: \nThis project does not include any frameworks, it is purely a java programming project, and includes techniques such as:\n • Dynamic String Manipulation: Used StringBuilder for efficient operations on large strings.\n • Character Handling: Implemented logic to differentiate between uppercase and lowercase letters, preserving non-alphabetical characters in their original form.\n • Key Cycling: Designed an algorithm to cycle through the Vigenère key for consistent encryption.\n\nThis project served as a valuable learning experience, reinforcing the importance of blending theoretical knowledge with practical implementation. It has inspired me to further explore cryptography and its applications in modern software systems. Additionally, it was both challenging and rewarding, allowing me to experiment with algorithm design while solidifying my knowledge of Java fundamentals. Although it is a complete prototype, I see potential for further enhancements, such as introducing decryption methods and integrating a graphical user interface.",
         "frameworks": [
             {
                 "name": "N/A"
@@ -267,7 +267,7 @@
             {
                 "type": "Frontend",
                 "site": "GitHub",
-                "link": "N/A",
+                "link": "https://github.com/salmannn7/Portfolio",
                 "status": "unavailable"
             }
         ]
