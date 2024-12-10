@@ -111,7 +111,7 @@ footer {
   left: 50%;
   top: 75vh;
   transform: translate(-50%, -15%);
-  width: 18rem;
+  width: 14rem;
   height: auto;
   transition: all 0.3s ease;
 }
@@ -120,7 +120,7 @@ footer {
   left: 50%;
   top: 0;
   transform: translate(-50%, 0);
-  width: 8rem;
+  width: 4rem;
 }
 
 .bopping {
