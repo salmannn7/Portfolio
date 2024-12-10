@@ -17,7 +17,7 @@ import ProjectPopUp from "./ProjectPopUp";
 import SkillPopUp from "./SkillPopUp"
 import '../css/App.css';
 
-function Test() {
+function HomeMobile() {
     const sectionsRefs = useRef([]);
     const tSkillRefs = useRef([]);
     const iSkillRefs = useRef([]);
@@ -706,4 +706,4 @@ function Test() {
     );
 }
 
-export default Test;
+export default HomeMobile;

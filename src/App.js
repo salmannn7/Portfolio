@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import './css/App.css';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
+import FooterMobile from './components/FooterMobile.js';
 import Home from './components/Home.js';
 import HomeMobile from './components/HomeMobile.js';
 import Test from './components/Test.js'
@@ -32,6 +33,7 @@ function App() {
           </Routes>
         </main>
         {!isMobileView && <Footer />}
+        {isMobileView && <FooterMobile />}
       </div>
     </Router>
   );
