@@ -1,5 +1,22 @@
-import React from "react";
-import logo from "../resources/logo.png";
+import React, { useEffect, useState, useRef, useCallback } from 'react';
+import aviPro from '../resources/avi-professional.jpg';
+import mmuLogo from '../resources/mmu-logo.png';
+import osfcLogo from '../resources/osfc-logo.png';
+import trsLogo from '../resources/trs-logo.png';
+import cvImage from "../resources/salman-talib-cv.png";
+import myCV from "../resources/downloadable-files/Salman_Talib_Software_Engineer.pdf"
+import uniResults from "../resources/json/uni-results.json";
+import collegeResults from "../resources/json/college-results.json";
+import secondaryResults from "../resources/json/secondary-results.json";
+import uniProjects from "../resources/json/uni-projects.json";
+import personalProjects from "../resources/json/personal-projects.json";
+import technicalSkills from "../resources/json/technical-skills.json";
+import interpersonalSkills from "../resources/json/interpersonal-skills.json"
+import UnitPopUp from "./UnitPopUp";
+import ProjectPopUp from "./ProjectPopUp";
+import SkillPopUp from "./SkillPopUp"
+import logo from "../resources/logo.png"
+import '../css/App.css';
 
 function HomeMobile() {
     return (

@@ -5,6 +5,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Home from './components/Home.js';
 import HomeMobile from './components/HomeMobile.js';
+import Test from './components/Test.js'
 
 function App() {
   const [isMobileView, setIsMobileView] = useState(window.innerHeight > window.innerWidth);
@@ -27,6 +28,7 @@ function App() {
         <main className="z-0">
           <Routes>
             <Route path="/" element={isMobileView ? <HomeMobile /> : <Home />} />
+            <Route path="/Test" element={<Test />} />
           </Routes>
         </main>
         {!isMobileView && <Footer />}

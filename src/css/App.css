@@ -379,6 +379,48 @@ footer {
   transition: margin 0.2s ease-in-out, transform 0.2 ease-in-out;
 }
 
+.about-box-mobile {
+  scale: 1; 
+  box-shadow: 0px 0px 10px 0px #FFFF;
+  transition: scale 0.2s ease-in-out, box-shadow 0.2s ease-in-out, margin 0.2s ease-in-out;
+}
+
+.about-box-mobile:hover {
+  z-index: 50;
+  scale: 1.1;
+  box-shadow: 0px 0px 15px 5px #FFFF;
+  transition: scale 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.about-box-mobile:nth-child(1) {
+  transform: translateY(0);
+}
+
+.about-box-mobile:nth-child(2) {
+  transform: translateY(-4rem);
+}
+
+.about-box-mobile:nth-child(3) {
+  transform: translateY(-8rem);
+}
+
+.about-box-mobile:nth-child(4) {
+  transform: translateY(-12rem);
+}
+
+.about-box-mobile:nth-child(even) {
+  margin-right: auto;
+}
+
+.about-box-mobile:nth-child(odd) {
+  margin-left: auto;
+}
+
+.about-box-mobile.centered {
+  transform: translateY(0);
+  transition: margin 0.2s ease-in-out, transform 0.2 ease-in-out;
+}
+
 .credits-scroll {
   animation: scrollCredits 20s ease-in-out;
 }
