@@ -136,7 +136,7 @@ function FooterMobile() {
                             <p>REACT</p>
                         </div>
                     </div>
-                    <div className="fade-child w-full h-full flex flex-col items-center justify-evenly">
+                    <div className="fade-child w-full h-fit flex flex-col items-center justify-evenly">
                         <p className="fade-child font-semibold text-nowrap" style={{ animationDelay: `6s` }}>CREATED BY:</p>
                         <p className="fade-child" style={{ animationDelay: `7s` }}>Salman Talib</p>
                     </div>
