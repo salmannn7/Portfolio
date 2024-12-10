@@ -105,6 +105,24 @@ footer {
   width: 12rem;
 }
 
+.test-mobile {
+  position: absolute;
+  cursor: pointer;
+  left: 50%;
+  top: 75vh;
+  transform: translate(-50%, -15%);
+  width: 18rem;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.test-mobile.go {
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 8rem;
+}
+
 .bopping {
   animation: bop 0.4s ease-in-out infinite alternate;
 }

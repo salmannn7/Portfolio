@@ -95,7 +95,7 @@ function HeaderMobile() {
 
     return (
         <header className="h-24 w-full flex items-center justify-center fixed z-50 font-poppins font-light uppercase pointer-events-none">
-            <img ref={logoRef} className="test fade-in pointer-events-auto" style={{ animationDelay: "2s" }} src={logo} alt="logo" onClick={scrollToTop} />
+            <img ref={logoRef} className="test-mobile fade-in pointer-events-auto" style={{ animationDelay: "2s" }} src={logo} alt="logo" onClick={scrollToTop} />
             <nav className="h-auto w-auto rounded-full overflow-hidden pointer-events-auto">
                 <div className="h-auto w-auto flex text-white text-sm divide-x-2 divide-zinc-900">
                     <div onClick={() => scrollToSection("about")} className={`flex items-center justify-center w-full h-full py-2 px-3 cursor-pointer fade-in ${activeSection === "about" ? "nav-button-active" : "nav-button"}`} style={{ animationDelay: "0.2s" }}>

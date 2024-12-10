@@ -128,7 +128,7 @@ function FooterMobile() {
             <canvas id="backgroundCanvas" className="absolute top-0 left-0 fade-child"></canvas>
             <div className="absolute w-full h-screen top-0 left-0 text-3xl flex flex-col items-center justify-center">
                 <div className="w-full h-full flex flex-col items-center justify-center px-24">
-                    <p className="fade-child my-8 text-5xl font-bold text-center" style={{ animationDelay: `1s` }}>THANK YOU FOR VIEWING MY PORTFOLIO</p>
+                    <p className="fade-child my-8 text-3xl font-bold text-center" style={{ animationDelay: `1s` }}>THANK YOU FOR VIEWING MY PORTFOLIO</p>
                     <div className="fade-child w-full h-fit flex flex-col items-center justify-evenly">
                         <p className="fade-child font-semibold text-nowrap" style={{ animationDelay: `3s` }}>CREATED USING:</p>
                         <div className="flex fade-child" style={{ animationDelay: `4s` }}>
