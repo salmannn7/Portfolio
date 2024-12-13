@@ -229,5 +229,26 @@
         "type": "os",
         "exp": 1,
         "link": "https://developer.apple.com/macos/"
+    },
+    {
+        "id": 34,
+        "name": "MongoDB",
+        "type": "framework",
+        "exp": 0,
+        "link": "https://www.mongodb.com/docs/manual/"
+    },
+    {
+        "id": 35,
+        "name": "Angular.JS",
+        "type": "framework",
+        "exp": 0,
+        "link": "https://angular.dev/overview"
+    },
+    {
+        "id": 36,
+        "name": "TypeScript",
+        "type": "language",
+        "exp": 0,
+        "link": "https://www.typescriptlang.org/docs/"
     }
 ]

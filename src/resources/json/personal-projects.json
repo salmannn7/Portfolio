@@ -64,7 +64,7 @@
         "name": "UNCANNY CLOTHING (2024)",
         "tags": "uncanny-clothing",
         "note": "## UNAVAILABLE TO VIEW ##",
-        "desc": "In the autumn of 2024, I set out to recreate and reimagine the E-Commerce website I had developed as part of my Synoptic Project during my final year of university. While the original project focused on sneaker sales, this new iteration, titled ‘Uncanny’, is an original clothing-based site inspired by brands like Represent and Essentials. Post-graduation, I aimed to expand my skill set by exploring new frameworks and environments that I didn’t have the opportunity to work with during my time in education. This project served as both a creative outlet and a way to push my technical abilities further.\n\nKey Features:\nDue to the incompleteness of the project, the website is mainly a visual, not many features are included although the structure and styling of the website are appealing. The very few key features of the site include:\n • Product Viewing: Users can explore the different products of the website, including tracksuits, jackets, and t-shirts. However, the product variety is limited.\n • Product Filters: Users are able to filter the products via categories, colours, collections, and product types, with the filter options available being based upon all the products available on the website and uses the URL query to filter the products.\n • Product Sorting: Users are able to sort the products via featured, newest, prices from low to high, and prices from high to low.\n\nDevelopment Highlights: \nThis project features a completely new tech stack compared to my previous work, with changes to both the frontend and backend frameworks:\n • Server-side: The backend is built using Flask, a Python-based framework known for its simplicity and flexibility. I was inspired using this by a fellow colleague who utilised this framework in their Synoptic Project.\n • Client-side: For the first time, I utilised React.JS, a popular JavaScript framework. I chose React.js because many roles I’m pursuing specifically require experience with it. Despite being new to the framework, I was able to quickly grasp its concepts and implement it effectively and smoothly.\n • Styling: The styling framework remains Tailwind CSS, as I find it more optimal than alternatives like Bootstrap due to its flexibility and efficiency.\n\nAs this project is still incomplete and a relatively recent venture, as of writing this description, it hasn’t yet contributed significantly to my interpersonal development. However, from a technical perspective, it has been highly valuable. One of the most important skills I’ve gained is proficiency in React, which I hope to leverage in future roles. Additionally, this project reinforced the importance of simplicity and clean design when creating personal projects, underscoring the idea that less can often be more in web development.",
+        "desc": "In the autumn of 2024, I set out to recreate and reimagine the E-Commerce website I had developed as part of my Synoptic Project during my final year of university. While the original project focused on sneaker sales, this new iteration, titled ‘Uncanny’, is an original clothing-based site inspired by brands like Represent and Essentials. Post-graduation, I aimed to expand my skill set by exploring new frameworks and environments that I didn’t have the opportunity to work with during my time in education. This project served as both a creative outlet and a way to push my technical abilities further.\n\nKey Features:\nDue to the incompleteness of the project, the website is mainly a visual, not many features are included although the structure and styling of the website are appealing. The very few key features of the site include:\n • Product Viewing: Users can explore the different products of the website, including tracksuits, jackets, and t-shirts. However, the product variety is limited.\n • Product Filters: Users are able to filter the products via categories, colours, collections, and product types, with the filter options available being based upon all the products available on the website and uses the URL query to filter the products.\n • Product Sorting: Users are able to sort the products via featured, newest, prices from low to high, and prices from high to low.\n\nDevelopment Highlights: \nThis project features a completely new tech stack compared to my previous work, with changes to both the frontend and backend frameworks:\n • Server-side: The backend is built using Flask, a Python-based framework known for its simplicity and flexibility. I was inspired using this by a fellow colleague who utilised this framework in their Synoptic Project.\n • Client-side: For the first time, I utilised React.JS, a popular JavaScript framework. I chose React.JS because many roles I’m pursuing specifically require experience with it. Despite being new to the framework, I was able to quickly grasp its concepts and implement it effectively and smoothly.\n • Styling: The styling framework remains Tailwind CSS, as I find it more optimal than alternatives like Bootstrap due to its flexibility and efficiency.\n\nAs this project is still incomplete and a relatively recent venture, as of writing this description, it hasn’t yet contributed significantly to my interpersonal development. However, from a technical perspective, it has been highly valuable. One of the most important skills I’ve gained is proficiency in React, which I hope to leverage in future roles. Additionally, this project reinforced the importance of simplicity and clean design when creating personal projects, underscoring the idea that less can often be more in web development.",
         "frameworks": [
             {
                 "name": "React.JS"
@@ -124,7 +124,7 @@
         "name": "PREMIER LEAGUE PREDICTOR (2023)",
         "tags": "premier-league-predictor",
         "note": "## UNAVAILBLE TO VIEW ##",
-        "desc": "During the summer break of 2023, I developed a small project centred around predicting the upcoming English Premier League season at that time (2023/24). The project features two tables where users can input their predictions for the season, with the other displaying the results. I created this predictor as a fun way to engage with the league while ensuring the underlying mathematics and calculations adhered to the Premier League's points-based system and rules. This side project challenged my mathematical skills, particularly in implementing accurate calculations within a structured framework.\n\nKey Features:\nHowever, due to this project being two straightforward tables, the features are quite limited. The few features it has are:\n • Match Input Table: Users can interact with the table by clicking on individual matchups. The matchups are determined by the first row (representing the away team) and the first column (representing the home team). Each cell corresponds to a specific match. Clicking on a cell determines the result:\nGreen: A win for the home team (3 points) and a loss for the away team.\nGrey: A draw, awarding 1 point to both teams.\nRed: A loss for the home team (0 points) and a win for the away team (3 points).\n • Results Table: The results table dynamically updates whenever the Match Input Table is modified. It calculates and displays the updated standings, including each team's position, total points, number of wins, draws, and losses, reflecting the Premier League's point system.\n\nDevelopment Highlights: \nThis project focuses solely on frontend development and styling, featuring the following:\n • Client-side: The frontend is built with Vue.js, chosen for its simplicity and my familiarity with it at the time. Its clean structure made it an ideal choice for this project.\n • Styling: Tailwind CSS was used once again to design and style the tables, providing a streamlined and efficient approach to layout and styling.\n\nAlthough this was a mini project and didn’t contribute to developing interpersonal skills, it offered valuable technical benefits. Specifically, it enhanced my mathematical and computational skills within a programming context. Moreover, it was a satisfying project to complete, as it served a practical purpose and was achievable within a short timeframe.",
+        "desc": "During the summer break of 2023, I developed a small project centred around predicting the upcoming English Premier League season at that time (2023/24). The project features two tables where users can input their predictions for the season, with the other displaying the results. I created this predictor as a fun way to engage with the league while ensuring the underlying mathematics and calculations adhered to the Premier League's points-based system and rules. This side project challenged my mathematical skills, particularly in implementing accurate calculations within a structured framework.\n\nKey Features:\nHowever, due to this project being two straightforward tables, the features are quite limited. The few features it has are:\n • Match Input Table: Users can interact with the table by clicking on individual matchups. The matchups are determined by the first row (representing the away team) and the first column (representing the home team). Each cell corresponds to a specific match. Clicking on a cell determines the result:\nGreen: A win for the home team (3 points) and a loss for the away team.\nGrey: A draw, awarding 1 point to both teams.\nRed: A loss for the home team (0 points) and a win for the away team (3 points).\n • Results Table: The results table dynamically updates whenever the Match Input Table is modified. It calculates and displays the updated standings, including each team's position, total points, number of wins, draws, and losses, reflecting the Premier League's point system.\n\nDevelopment Highlights: \nThis project focuses solely on frontend development and styling, featuring the following:\n • Client-side: The frontend is built with Vue.JS, chosen for its simplicity and my familiarity with it at the time. Its clean structure made it an ideal choice for this project.\n • Styling: Tailwind CSS was used once again to design and style the tables, providing a streamlined and efficient approach to layout and styling.\n\nAlthough this was a mini project and didn’t contribute to developing interpersonal skills, it offered valuable technical benefits. Specifically, it enhanced my mathematical and computational skills within a programming context. Moreover, it was a satisfying project to complete, as it served a practical purpose and was achievable within a short timeframe.",
         "frameworks": [
             {
                 "name": "Vue.JS"
@@ -269,6 +269,63 @@
                 "site": "GitHub",
                 "link": "https://github.com/salmannn7/Portfolio",
                 "status": "available"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "PHOENIX (2024)",
+        "tags": "phoenix-project",
+        "note": "## UNAVAILBLE TO VIEW ##\n## THIS PROJECT IS CURRENTLY UNDER DEVELOPMENT ##",
+        "desc": "After completing my Portfolio, I immediately started a new project to further hone my skills in the tech industry. Drawing inspiration from the social media platform Twitter (now known as 'X'), I set out to create a social media app named Phoenix. The app aims to replicate Twitter’s core functionality while incorporating additional features that are either missing or locked behind a paywall on similar platforms. The name Phoenix symbolises rebirth and resilience, reflecting both the mythical bird that rises from the ashes and the decline of Twitter under Elon Musk’s leadership. This project represents a fresh take on social media, rising from those ashes to offer a better user experience. As this project is still in development, its description remains limited, but more details will follow as progress is made.\n\nKey Features (So Far):\n • View Posts and Comments: Users can view posts in their feed, along with a display of comments under each post. (Implemented in Backend.)\n • Add Posts and Comments: Users can create posts and add comments to others’ posts, fostering engagement within the platform. (Implemented in Backend.)\n • User Accounts: Registered users can access these features, with additional functionalities planned for future development. (Implemented in Backend.)\n\nDevelopment Highlights:\nChanging my tech stack from previous projects, I went new frameworks with no past experience with to challenge myself. The tech stack includes:\n • Server-side: The backend is being developed with Express.JS, a framework I’ve used before. I chose Express.JS not only because of my familiarity with it but also because it integrates seamlessly with MongoDB, the database framework I’m using for this project.\n • Client-side: The frontend is built with Angular, marking the final piece of my journey through the 'big three' frontend frameworks—Vue.JS, React.JS, and now Angular.JS. Learning Angular has been challenging, particularly due to its heavy reliance on TypeScript, but I’m gradually becoming more comfortable with it.\n • Styling: As with my previous projects, I’m using Tailwind CSS for styling, leveraging its simplicity and flexibility to maintain a consistent, efficient workflow.\n • Database: In contrast to my previous projects where I used SQLite, I decided to use MongoDB for this project. MongoDB is a NoSQL database that uses JSON-like documents, and I’ve been hearing about its versatility for a long time. While it was initially difficult to grasp, I now have a solid understanding of how it functions and how to structure my database interactions effectively.\n\nThis project is still in its early stages, so there’s much work to be done before the final product takes shape. My goal is to complete Phoenix and potentially deploy it online as a competitive alternative to existing social media platforms. I’m excited about the potential of this project to meet my personal goals while showcasing my ability to innovate and adapt to new challenges in the tech space.",
+        "frameworks": [
+            {
+                "name": "Angular.JS"
+            },
+            {
+                "name": "Express.JS"
+            },
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "Tailwind CSS"
+            }
+        ],
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "TypeScript"
+            }
+        ],
+        "environments": [
+            {
+                "name": "Visual Studio Code"
+            },
+            {
+                "name": "MongoDB Compass"
+            }
+        ],
+        "links": [
+            {
+                "type": "Frontend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
+            },
+            {
+                "type": "Backend",
+                "site": "GitHub",
+                "link": "N/A",
+                "status": "unavailable"
             }
         ]
     }
