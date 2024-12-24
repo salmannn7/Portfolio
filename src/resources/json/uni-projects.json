@@ -48,20 +48,14 @@
             {
                 "type": "Frontend",
                 "site": "Hosted",
-                "link": "https://salmannn7.github.io/HeliosSole",
-                "status": "available"
+                "link": "N/A",
+                "status": "unavailable"
             },
             {
-                "type": "Frontend",
+                "type": "Frontend + Backend",
                 "site": "GitHub",
-                "link": "https://github.com/salmannn7/HeliosSole",
-                "status": "available"
-            },
-            {
-                "type": "Backend",
-                "site": "GitHub",
-                "link": "https://github.com/salmannn7/HeliosSoleBackend",
-                "status": "available"
+                "link": "N/A",
+                "status": "unavailable"
             }
         ]
     },
