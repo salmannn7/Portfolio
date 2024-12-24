@@ -3,7 +3,7 @@
         "id": 1,
         "name": "FINAL YEAR SYNOPTIC PROJECT (HELIOS SOLE)",
         "tags": "helios-sole-project",
-        "note": "## ONLY FRONTEND HOSTED VIA GITHUB, BACKEND FILES AVAILABLE ON GITHUB ##",
+        "note": "## BOTH FRONTEND AND BACKEND HOSTED VIA GITHUB AND RENDER, FILES AVAILABLE ON GITHUB ##\n## WAIT 30-50 SECONDS FOR DATA TO APPEAR DUE TO BACKEND HOSTED VIA FREE TIER ##",
         "desc": "Helios Sole is my synoptic project for the final year of university, developed to address the challenge: \"Create an e-commerce platform with a built-in recommendation system.\" This website focuses on sneakers as its primary product, combining cutting-edge web design with advanced recommendation technology to redefine the shopping experience.\nThe cornerstone of Helios Sole is its hybrid recommendation system, which integrates both content-based filtering and collaborative filtering techniques. This system dynamically tailors product suggestions based on user preferences, browsing history, and purchasing patterns. By leveraging user data alongside patterns from similar customers, the platform delivers highly personalised recommendations that enhance product discovery and increase user engagement.\n\nKey Features of the Recommendation System:\n • Content-Based Filtering: Analyses product attributes such as brand, size, and colour, along with user preferences, to suggest items closely aligned with individual tastes.\n • Collaborative Filtering: Identifies patterns in the behaviour of users with similar preferences to offer additional suggestions, expanding product exposure beyond initial preferences.\n • Hybrid Model: Combines the strengths of both approaches, merging their outputs into a unified list of recommendations. The system ranks suggestions based on relevance, ensuring users are presented with the most appealing options.\n • Dynamic Integration: Recommendations are embedded across the platform via carousels, product pages, and personalised search results, ensuring seamless visibility during the shopping journey.\n\nAdditional Features:\n • Modern User Interface: Inspired by industry leaders like Nike and StockX, the platform offers a clean, intuitive design that simplifies navigation and encourages engagement.\n • Advanced Filtering and Sorting: Users can search for sneakers using robust tools, refining options by attributes such as brand, size, price, and style.\n • Secure Checkout Process: Employs encrypted password storage, session token management, and GDPR-compliant data handling to safeguard user data.\n\nDevelopment Highlights:\nThe recommendation system was meticulously designed and implemented using a modular approach, ensuring adaptability and scalability. Written in JavaScript and integrated into the platform via Express.js, the system is a dedicated automation component that interfaces seamlessly with the database and front-end. The hybrid model underwent extensive testing, including A/B testing and user feedback evaluations, to fine-tune its effectiveness and optimize user satisfaction.\nHelios Sole demonstrates how smaller e-commerce platforms can harness the power of recommendation systems to deliver a tailored shopping experience typically found in large-scale retail giants. By leveraging advanced algorithms and user-centric design, this project bridges the gap between personalised customer engagement and technological innovation.",
         "frameworks": [
             {
@@ -48,14 +48,14 @@
             {
                 "type": "Frontend",
                 "site": "Hosted",
-                "link": "N/A",
-                "status": "unavailable"
+                "link": "https://salmannn7.github.io/helios-sole/",
+                "status": "available"
             },
             {
                 "type": "Frontend + Backend",
                 "site": "GitHub",
-                "link": "N/A",
-                "status": "unavailable"
+                "link": "https://github.com/salmannn7/helios-sole",
+                "status": "available"
             }
         ]
     },
